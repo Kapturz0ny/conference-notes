@@ -1,3 +1,4 @@
 **/posters/**/*.jpg
 **/posters/**/*.jpeg
 **/posters/**/*.png
+.env

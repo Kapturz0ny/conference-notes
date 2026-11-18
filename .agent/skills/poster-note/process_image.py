@@ -8,7 +8,7 @@ def to_px(y_norm: float, x_norm: float, w: int, h: int) -> list[float]:
 
 def main():
     if len(sys.argv) not in (6, 10):
-        print("Użycie:")
+        print("Usage:")
         print("  Image crop: python process_image.py <file> <ymin> <xmin> <ymax> <xmax>")
         print("  Fixing perspective: python process_image.py <file> <tl_y> <tl_x> <tr_y> <tr_x> <br_y> <br_x> <bl_y> <bl_x>")
         sys.exit(1)
