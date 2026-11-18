@@ -1,5 +1,334 @@
 [
-  "PXL_20261029_151800476.jpg",
-  "PXL_20261029_152146824.jpg",
-  "PXL_20261029_151426555.jpg"
+  {
+    "file": "PXL_20261025_154630780.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261025_155707279.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261025_155847747.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261025_160211153.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261025_162053315.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_102440276.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_102510666.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_102946481.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_103051094.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_103301315.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_103326056.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_103433300.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_103529637.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_104141273.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_105017883.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_105721687.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_105854275.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_110134356.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_110243725.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_110449477.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_110743446.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_110852928.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_110928453.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_112107195.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_112430561.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_113309566.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_154518139.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_154616204.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_154749843.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_155811224.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_155948633.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_160731615.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_162432393.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_162615504.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_163447526.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_163727236.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_164028442.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_164926138.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261026_172726657.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261027_095017761.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261027_095041726.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261027_095151381.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261027_101220014.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261027_101617566.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261027_103131846.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261027_103923742.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261027_104225989.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261027_105352109.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261027_105449744.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261027_105504740.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261027_105621820.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261027_105741738.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261027_112122938.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261027_114450237.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261028_111556397.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261028_112655364.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261028_113438793.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261028_114610602.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261028_115015009.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261028_120347372.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261028_121123131.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_111753370.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_112519788.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_114234819.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_114424093.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_114750532.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_114909881.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_114932362.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_114936721.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_115028470.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_115041242.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_115114347.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_115143420.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_115317150.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_115339798.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_145812204.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_145904149.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_150748425.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_151043322.jpg",
+    "status": "skipped"
+  },
+  {
+    "file": "PXL_20261029_151237078.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_151426555.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_151800476.jpg",
+    "status": "done"
+  },
+  {
+    "file": "PXL_20261029_152146824.jpg",
+    "status": "done"
+  }
 ]
