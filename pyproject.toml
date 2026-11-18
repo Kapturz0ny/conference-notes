@@ -1,0 +1,13 @@
+[project]
+name = "conference-notes"
+version = "0.1.0"
+description = "Narzędzia pomocnicze do przetwarzania posterów konferencyjnych"
+authors = [
+    { name = "Marcin Bagnowski", email = "168143550+Kapturz0ny@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "opencv-python>=5.0.0.93",
+    "pillow>=13.0.0",
+    "pyzbar>=0.1.9",
+]
