@@ -15,18 +15,29 @@ uv sync
 
 1. **Create a Notion Database:** Create an inline database named **`Baza Wiedzy NLP`** with the following properties:
 * `Tytuł` (Title)
+* `TLDR` (Text)
 * `Konferencja` (Select)
 * `Rok` (Number)
-* `Afiliacja` (Multi-select)
 * `PDF` (URL)
-* `Repozytorium` (URL)
+* `Repo` (URL)
+* `Zastosowanie` (Multi-select)
+* `Moja Ocena` (Select)
 * `Tagi` (Multi-select)
-* `Przydatność` (Select)
+* `Afiliacja` (Multi-select)
 
 
-2. **Connect Notion MCP in `agy`:**
+2. **Configure API Access:**
+* Create an internal integration at [notion.so/profile/integrations](https://www.notion.so/profile/integrations) and connect it to the page containing **`Baza Wiedzy NLP`** (`•••` → **Connections**).
+* Create and fill `.env` file in the project root
+
+## Usage
+
+* **Initialize a new conference folder:**
 ```bash
-agy mcp add notion [https://mcp.notion.com/mcp](https://mcp.notion.com/mcp)
+./scripts/init_conf.sh ACL27
+
 ```
 
-Launch `agy`, run `/mcp`, select `notion`, and complete OAuth in your browser granting access to the page containing **`Baza Wiedzy NLP`**.
+* **Generate notes in `agy`:**
+* Posters: `Use poster-note skill for EMNLP26`
+* Single article/paper: `Use link-note skill for https://arxiv.org/abs/...`

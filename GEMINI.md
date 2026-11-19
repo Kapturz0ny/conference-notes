@@ -8,6 +8,7 @@ Baza notatek z publikacji naukowych, artykułów i posterów konferencyjnych. Ce
 ## Schemat danych dla Notion (`Baza Wiedzy NLP`)
 Właściwości przekazywane do skryptu `scripts/save_to_notion.py`:
 - `tytul` – pełny tytuł publikacji lub artykułu
+- `tldr_short` – jedno bardzo krótkie zdanie (maks. 12-15 słów) do wyświetlenia w tabeli: co to dokładnie jest (np. "Metoda filtrowania danych SFT oparta na niepewności modelu bazowego" albo "Benchmark ewaluacji SAE na zadaniach sterowania").
 - `konferencja` – nazwa folderu (np. `"EMNLP26"`) lub `null` dla pojedynczych linków
 - `rok` – rok publikacji jako liczba (np. `2026`)
 - `afiliacja` – lista głównych uczelni/firm autorów (**uwaga: bez przecinków wewnątrz nazw**, bo to pole Multi-select)

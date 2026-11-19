@@ -27,11 +27,15 @@ def get_data_source_id(notion: Client, db_id: str) -> str:
         raise ValueError(f"No data sources found for database {db_id}")
     return data_sources[0]["id"]
 
-def is_duplicate(notion: Client, data_source_id: str, title: str, pdf_url: str | None) -> bool:
+def is_duplicate(notion: Client, db_id: str, title: str, pdf_url: str | None) -> bool:
     filters = [{"property": "Tytuł", "title": {"equals": title}}]
     if pdf_url:
         filters.append({"property": "PDF", "url": {"equals": pdf_url}})
-    res = notion.data_sources.query(data_source_id=data_source_id, filter={"or": filters})
+    res = notion.request(
+        path=f"databases/{db_id}/query",
+        method="POST",
+        body={"filter": {"or": filters}},
+    )
     return len(res.get("results", [])) > 0
 
 def text_blocks(items: list[str]) -> list[dict]:
@@ -63,7 +67,7 @@ def main():
     json_path = Path(sys.argv[1])
     data = json.loads(json_path.read_text(encoding="utf-8"))
 
-    notion = Client(auth=os.environ["NOTION_TOKEN"])
+    notion = Client(auth=os.environ["NOTION_TOKEN"], notion_version="2022-06-28")
     db_id = os.environ["NOTION_DATABASE_ID"]
     data_source_id = get_data_source_id(notion, db_id)
 
@@ -76,6 +80,7 @@ def main():
 
     props = {
         "Tytuł": {"title": [{"text": {"content": title}}]},
+        "TLDR": {"rich_text": [{"text": {"content": data.get("tldr_short", "")[:2000]}}]},
         "Tagi": {"multi_select": [{"name": t} for t in data.get("tagi", [])]},
         "Zastosowanie": {"multi_select": [{"name": z} for z in data.get("zastosowanie", [])]},
     }

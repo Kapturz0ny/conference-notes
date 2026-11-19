@@ -22,6 +22,7 @@ description: Tworzy notatkę w Notion na podstawie podanego linku do publikacji 
        "tagi": ["Tag1", "Tag2"],
        "zastosowanie": ["Wniosek", "Test"],
        "image_path": null,
+       "tldr_short": "Krótkie jednozdaniowe podsumowanie do tabeli...",
        "tldr": "Maksymalnie 3 zdania: problem, metoda, główny wynik.",
        "ocena_praktyczna": [
          "Ocena pod profil z GEMINI.md: co konkretnie można wykorzystać...",
