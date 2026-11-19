@@ -69,12 +69,11 @@ def main():
 
     notion = Client(auth=os.environ["NOTION_TOKEN"], notion_version="2022-06-28")
     db_id = os.environ["NOTION_DATABASE_ID"]
-    data_source_id = get_data_source_id(notion, db_id)
 
     title = data["tytul"].strip()
     pdf_url = data.get("pdf") or None
 
-    if is_duplicate(notion, data_source_id, title, pdf_url):
+    if is_duplicate(notion, db_id, title, pdf_url):
         print(f"SKIPPED (duplicate in Notion): {title}")
         return
 
