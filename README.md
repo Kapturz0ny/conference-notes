@@ -39,5 +39,5 @@ uv sync
 ```
 
 * **Generate notes in `agy`:**
-* Posters: `Use poster-note skill for EMNLP26`
+* Posters: `Use poster-note skill for conference/EMNLP26`
 * Single article/paper: `Use link-note skill for https://arxiv.org/abs/...`

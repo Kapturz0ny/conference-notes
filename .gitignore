@@ -2,3 +2,4 @@
 **/posters/**/*.jpeg
 **/posters/**/*.png
 .env
+*.zip

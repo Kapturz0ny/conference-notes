@@ -3,10 +3,10 @@ name: poster-note
 description: Kadruje zdjęcia posterów, odczytuje kody QR, analizuje treść i tworzy notatki w Notion.
 ---
 
-# Procedura dla wskazanego folderu konferencji (np. `EMNLP26`)
+# Procedura dla wskazanego folderu konferencji (np. `conference/EMNLP26`)
 
 1. **Inwentaryzacja:**
-   - Pobierz obrazy z `<folder>/posters/` i odfiltruj wszystkie pliki obecne już w `<folder>/processed.json` (chyba że użytkownik jawnie poprosi o przetworzenie plików ze statusem `"needs_argon"`).
+   - Pobierz obrazy z `conference/<folder>/posters/` i odfiltruj wszystkie pliki obecne już w `<folder>/processed.json` (chyba że użytkownik jawnie poprosi o przetworzenie plików ze statusem `"needs_argon"`).
    - Przy >5 zdjęciach do przetworzenia podziel pracę na partie po 5 sztuk dla subagentów.
 
 2. **Kadrowanie i ekstrakcja QR:**
@@ -36,7 +36,7 @@ description: Kadruje zdjęcia posterów, odczytuje kody QR, analizuje treść i 
        "repo": null,
        "tagi": ["Tag1", "Tag2"],
        "zastosowanie": ["Wniosek", "Test"],
-       "image_path": "EMNLP26/posters/cropped/plik.jpg",
+       "image_path": "conference/EMNLP26/posters/cropped/plik.jpg",
        "tldr_short": "Krótkie jednozdaniowe podsumowanie do tabeli...",
        "tldr": "Maksymalnie 3 zdania: problem, metoda, główny wynik.",
        "ocena_praktyczna": [

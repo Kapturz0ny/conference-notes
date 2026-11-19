@@ -8,7 +8,7 @@ fi
 
 CONF_NAME="$1"
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-CONF_DIR="$BASE_DIR/$CONF_NAME"
+CONF_DIR="$BASE_DIR/conference/$CONF_NAME"
 
 if [ -d "$CONF_DIR" ]; then
     echo "Dir $CONF_NAME exists ($CONF_DIR)."
